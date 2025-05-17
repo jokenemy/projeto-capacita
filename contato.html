@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Contato</title>
+        <style>
+            /*contato.html*/
+            .container {
+                max-width: 600px;
+                margin: auto;
+                background: rgb(0, 0, 0);
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                color: aliceblue;
+            }
+            h1 {
+                text-align: center;
+            }
+
+            label {
+                display: block;
+                margin: 10px 0 5px;
+                font-size: 20px;
+            }
+            
+            button {
+                background-color: blue;
+                color: #cec7c7;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover {
+                background-color: rgb(46, 195, 61);
+            }
+        </style>
+    </head>
+    <body>
+
+        <main>
+            <h1>Página de Contato</h1>
+            <a href="https://wa.me/5585981360256?text=fale%20comigo" target="_blank">
+                <i class="fa fa-whatsapp" style="font-size:24px"></i>
+            </a>
+            <section class="container">
+                <form action="mailto:railanemesquita34@gmail.com" method="post" enctype="text/plain">
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Endereço de email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Motivo do assunto:</label>
+                        <textarea id="assunto" name="assunto" rows="4" required></textarea>
+                    </p>
+
+                    <p>
+                        <label for="telefone">Número de telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar formulário</button>
+                    </p>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

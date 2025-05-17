@@ -1,0 +1,150 @@
+body {
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    margin: 0px;
+    text-align: center;
+}
+
+header{
+  background-color: #cec7c7;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-decoration: none;
+}
+
+footer{
+  background-color: #cec7c7;
+  padding: 25px 0;
+}
+
+.introducao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: left;
+  padding: 2rem;
+}
+
+.textoApresentacao {
+  max-width: 400px;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*barras*/
+  .skill {
+    margin-bottom: 20px;
+  }
+
+  .progress-bar {
+  width: 30%;
+  height: 20px;
+  background-color: #afafaf;
+  border-radius: 8px;
+  }
+
+  .progress {
+  height: 100%;
+  background-color: #5d6063;
+  border-radius: 8px;
+  }
+  .galeria {
+  border-style: double;
+  padding: 5%;
+  display: grid;
+  gap: 5%;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(4, auto);
+}
+
+.interesse-img {
+  width: 150px;
+  height: 150px;
+}
+
+.rede {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+/**/
+
+#depoimentos {
+  padding: 4rem 1rem;
+  background-color: #444444;
+}
+
+#depoimentos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+#depoimentos .subtitulo {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #777;
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.depoimento {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 700px;
+  width: 100%;
+  gap: 1rem;
+}
+
+.foto-perfil {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.texto h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.texto p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.comentario {
+  margin-top: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.comentario form {
+  margin: 0 auto;
+}

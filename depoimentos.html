@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <title>Depoimentos</title>
+</head>
+<body>
+  <section id="depoimentos">
+    <h2>Depoimentos</h2>
+
+    <div class="container">
+      <div class="depoimento">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Usuária 1" class="foto-perfil">
+        <div class="texto">
+          <h4>Mariana Souza</h4>
+          <p>Amei o projeto! Simples, mas com uma estrutura bem organizada.</p>
+        </div>
+      </div>
+
+      <div class="depoimento">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Usuário 2" class="foto-perfil">
+        <div class="texto">
+          <h4>João Henrique</h4>
+          <p>Gostei bastante do layout e da proposta.</p>
+        </div>
+      </div>
+
+      <div class="depoimento">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Usuária 3" class="foto-perfil">
+        <div class="texto">
+          <h4>Larissa Lima</h4>
+          <p>Trabalho muito bem feito.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="comentario">
+      <h3>💬 Deixe seu comentário:</h3>
+      <form style="display: flex; flex-direction: column; max-width: 500px;">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required style="padding: 0.5rem; margin-bottom: 1rem;">
+
+        <label for="comentario">Comentário:</label>
+        <textarea id="comentario" name="comentario" rows="4" placeholder="Escreva aqui seu comentário" required style="padding: 0.5rem; margin-bottom: 1rem;"></textarea>
+
+        <button type="submit" style="background-color: #4caf50; color: white; padding: 0.7rem; border: none; border-radius: 4px; cursor: pointer;">
+          Enviar
+        </button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
